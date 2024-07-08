@@ -249,6 +249,10 @@ blockquote footer {
   opacity: 1;
 }
 
+.profilePicture {
+  transition: opacity 0.3s;
+}
+
 .overlay h2 {
   margin: 10px 0;
 }
