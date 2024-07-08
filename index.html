@@ -1,84 +1,167 @@
 <!DOCTYPE html>
-<html>
-    <!--html always contains head and body -->
-    <head>
-        <!--meta info about the document - lets browser know info about it (title in tab)-->
-        <title>Baz Portfolio</title>
-            <link href="./styles.css" type="text/css" rel="stylesheet" />
-    </head>
-    <body>
-      <header class="navstyle">
-        <nav style="padding: 8px; justify-content: space-between;">
-          <a href="#"> Home </a>
-          <a href="#"> About Me</a>
-          <a href="#"> Case Studies </a>
-          <a href="#"> Contact Me </a>
-           <!-- Rounded switch -->
-          <!--  <label class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-          </label> -->
-          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-        </nav>
-      </header>
+<html lang="en">
 
-  <section>
-    <div class="column" style=" justify-content: center; display: flex; align-items: center;">
-      <h4 id="bold">Hi, my name is Baz, I am a UI/UX and Graphic Designer </h4>
-      <div style="padding: 8px; ">
-      <button class="button default-color"> View My Work </button>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baz Kannan - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">B.K.</a>
       </div>
-      <div style="justify-content: center; display: flex;">
-        <button style="justify-content: center; flex-wrap: wrap;
-        display: inline-block;" class="btn success image-overlay-blurb">Contact Me</button> </img>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CASE STUDIES</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <!-- Rounded switch 
+        <label class="switch">
+          <input type="checkbox" id="dark-mode-toggle">
+          <span class="slider round"></span>
+        </label> -->
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <h1 style="font-variant: small-caps;">Who am I?</h1>
+      <p>I’m Bharath Kannan, also known as Baz. A diligent, collaborative and multidisciplinary designer with over 3 years of experience designing and creating graphics and visuals in the creative industry and agile environments, including FTSE 100 experience. My background in UI/UX, Graphic Design and motion Graphics helps me to view challenges from a different point of view.</p>
+      <h1 style="font-variant: small-caps;">About Me</h1>
+    <p>My passion for design and creativity began when I was 13 years old, I taught myself how to use Adobe Creative Cloud softwares to bring my ideas to life. I am fascinated by the process of being able to create a product that positively impacts society. With a combination of design and technical skills acquired over the course of 8 years, I’ve been able to create over 200+ high quality visuals for Filmmakers, Music Artists, Business Owners, and Content Creators online. 
+
+      Notable achievements include designing, optimising the customer journey and delivering UX of the Lloyd’s Banking Group chatbot application using a combination of software including Figma, JavaScript and Adobe Creative Cloud (Photoshop, XD, After Effects, InDesign). Delivered design improvements to the chatbot application which lead to a 35% better customer reception and improved the overall UX for over 2 million Lloyd’s customers in the UK.
+      </p>
+    </section>
+    <section>
+      <h1 style="font-variant: small-caps;">Case Studies</h1>
+      <div class="projectGrid">
+        <div class="gridcell1">
+          <div class="image-hover">
+            <div class="image-container">
+              <img src="https://images.unsplash.com/photo-1591783290499-2d4257a4c409?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXh8ZW58MHx8MHx8fDA%3D" alt="brainstorming">
+              <div class="overlay">
+                <h2>Cliff Kennels LTD</h2>
+                <p>Redesign of the Cliff's Kennels Website.</p>
+                <button>View Case Study</button>
+              </div>
+            </div>
+          </div>
         </div>
-  </div>
-  </section>
-  <section>
-    <h1 id="bold">Lorum Ipsum </h1>
-    </div>
-  </section>
-  
-  <section>
-      <div class="column">
-        <img src="https://images.unsplash.com/photo-1591783290499-2d4257a4c409?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXh8ZW58MHx8MHx8fDA%3D" width="50%" alt="desktop prototype cliff rescue">
-        <p class="image-overlay-blurb" style="left: 20px; color: black; padding: 8px;">
-          CASE STUDIES
-        </p> 
+        <div class="gridcell2">
+          <div class="image-hover">
+            <div class="image-container">
+              <img src="https://images.unsplash.com/photo-1591783290499-2d4257a4c409?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXh8ZW58MHx8MHx8fDA%3D" alt="brainstorming">
+              <div class="overlay">
+                <h2>Energy.gov</h2>
+                <p>Redesign of the Energy.gov Website.</p>
+                <button>View Case Study</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gridcell3">
+          <div class="image-hover">
+            <div class="image-container">
+              <img src="https://images.unsplash.com/photo-1591783290499-2d4257a4c409?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXh8ZW58MHx8MHx8fDA%3D" alt="brainstorming">
+              <div class="overlay">
+                <h2>Coming Soon</h2>
+                <p>Redesign of Website.</p>
+                <button>View Case Study</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  </section>
-  <section>
-    <img src="https://images.unsplash.com/photo-1591783290499-2d4257a4c409?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dXh8ZW58MHx8MHx8fDA%3D" width="30%">
-    <div class="case-study-info">
-      <h4> Mobile App UX Research</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis ornare diam, id facilisis dui. Suspendisse sapien augue, imperdiet vitae convallis egestas, fringilla eu tortor. Vestibulum sit amet nunc lacus. Etiam eget leo quis lorem hendrerit commodo a et ligula. Vivamus varius, est id sodales egestas, nisi massa eleifend mauris, ut eleifend ex leo a lacus. Integer arcu neque, vulputate sollicitudin massa non, laoreet ultrices tellus. Etiam at mi sed enim tempus convallis. Nam aliquam tellus sit amet massa dapibus, volutpat auctor turpis fermentum.
-  
-      </p>
-      <a href="#"> Read More</a>
-    </div>
-  </section>
-  
-  <section class="reverse">
-    <img src="https://images.unsplash.com/flagged/photo-1581390476351-b5d89504a5cb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwYXBwfGVufDB8fDB8fHww" width="30%">
-    <div class="case-study-info">
-      <h4> Mobile App UX Design</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis ornare diam, id facilisis dui. Suspendisse sapien augue, imperdiet vitae convallis egestas, fringilla eu tortor. Vestibulum sit amet nunc lacus. Etiam eget leo quis lorem hendrerit commodo a et ligula. Vivamus varius, est id sodales egestas, nisi massa eleifend mauris, ut eleifend ex leo a lacus. Integer arcu neque, vulputate sollicitudin massa non, laoreet ultrices tellus. Etiam at mi sed enim tempus convallis. Nam aliquam tellus sit amet massa dapibus, volutpat auctor turpis fermentum.
-  
-      </p>
-      <a href="#"> Read More</a>
-    </div>
+    </section>
+    <section class="testimonial">
+      <h2 style="font-variant: small-caps;">What My Clients Say About Me</h2>
+      <blockquote style="border-radius: 8px;">
+        <p>"Baz has been an enormous resource and help to my channel over the last couple of months. He started off by completely refreshing my brand image with a new profile picture for my YouTube and Instagram handles, as well as a fantastic and engaging YouTube banner. I would say working with Baz has been a huge success for me and my channel."</p>
+        <footer style="padding-right: 32px; color: black; background-color: #FFF500;">— AS eSkater, YouTuber</footer>
+      </blockquote>
+
+      <blockquote style="border-radius: 8px;">
+        <p>“We really enjoyed working with Baz. We worked on Website Design, Graphics, Banners. We were really happy with the results and they were extremely high quality. We look forward to working with Baz in the future and I highly recommend his design work to others. Thank you Baz!”</p>
+        <footer style="padding-right: 32px; color: black; background-color: #FFF500;">— -Sanjay Patel, England Kabaddi Union</footer>
+      </blockquote>
+      <h2 style="font-variant: small-caps;">My Skills</h2>
+      <h3 style="font-variant: small-caps; padding: 16px;">Tools I know</h3>
+      <div style="display: flex;">
+        <div>
+          <ul>
+            <li>Figma | Advanced</li>
+            <li>Adobe XD | Proficient</li>
+            <li>Adobe Photoshop | Advanced</li>
+            <li>Adobe Illustrator | Proficient</li>
+            <li>Adobe InDesign | Proficient</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Figma | Advanced</li>
+            <li>Adobe XD | Proficient</li>
+            <li>Adobe Photoshop | Advanced</li>
+            <li>Adobe Illustrator | Proficient</li>
+            <li>Adobe InDesign | Proficient</li>
+          </ul>
+        </div>
+      </div>
+      <div style="display: flex; ">
+        <div style="padding: 32px;">
+          <h3 style="font-variant: small-caps;">User Research</h3>
+          <p>My approach to user research is to thoroughly understand the needs, motivations and pain points of targeted users to help make products that address the user’s problems. I use tools like Google Forms, SurveyMonkey and online interviews to help extract data and valuable feedback from users for product iterations. This in turn allows me to identify patterns, behaviours, psychology of users along with areas for improvement. Therefore, requiring strong analytical skills to conduct thorough user research. 
+          </p>
+        </div>
+        <div style="padding: 32px;">
+          <h3 style="font-variant: small-caps;">User Empathy</h3>
+          <p>My line of work requires me to put myself in the shoes of the user to really understand their experiences, emotions and wants. One example from my life is where I edit films and motion graphics, where I try to work collaboratively and gather feedback and understand what viewers want to see in a film and help deliver that experience to them. This understanding helps translate to creating products or services that connect with the users. My goal is to ensure that users feel satisfied with their product. The tools I apply to this approach is through the creation of User Persona’s, Storyboards, and Empathy Maps. One example is through designing an app for TFL commuters where we wanted to incentivise users to use Oyster Cards instead of relying on contactless payments. Through conducting usability testing and iterations, this helps me to understand exactly what the user needs are. Just from understanding what the user wants, this helps lead to a 40% increase in engagement.
+          </p>
+        </div>
+        <div style="padding: 32px;">
+          <h3 style="font-variant: small-caps;">Qualitative Interviews</h3>
+          <p>My approach to interviews focuses on asking open-ended and probing questions to target users to really understand their perspective, behaviours and creating an environment that makes the end user comfortable in opening up about their thoughts and feelings. One example is where I interviewed candidates about their experiences with mental health websites, which really helped me to design the website in a way that is conducive to the goals of the target user struggling with mental health.
+          </p>
+        </div>
+      </div>
     
-  </section>
+    </section>
+
+    <section class="contact">
+      <h2 style="font-variant: small-caps;">Get In Touch</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Enter subject">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+        <button style="color: white; background-color: black;" type="submit">Send A Message</button>
+      </form>
+      <div class="contact-info">
+        <p style="font-weight:bold;">Let's connect! </p>
+        <p>Email: baz@bazkannan.com </p>
+        <p>Website: bazkannan.com </p>
+        <p>Instagram: @bazzcreative </p>
+      </div>
+    </section>
+  </main>
   <footer>
-    <div style="flex-direction:row; display: flex; 
-    justify-content: space-evenly; padding: 32px; ">
-    <div>
-      Contact Me 
-    </div>
-    <div>
-      Copyright @ Baz 
-    </div>
-  </div>
+    <p>2024 &copy; Baz Kannan </p>
   </footer>
-    </body>
+  <script src="script.js"></script>
+</body>
+
 </html>
