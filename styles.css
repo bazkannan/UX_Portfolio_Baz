@@ -249,8 +249,16 @@ blockquote footer {
   opacity: 1;
 }
 
+.profilePicture:hover {
+  transform: scale(1.05, 1.05); 
+  opacity: 0.7; 
+}
+
 .profilePicture {
-  transition: opacity 0.3s;
+  transform: scale(1, 1);
+  transition: transform 5ms ease-in; 
+  opacity: 1; 
+  transition: opacity 0.3s ease-in; 
 }
 
 .overlay h2 {
