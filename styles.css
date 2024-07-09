@@ -3,8 +3,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #333;
+  color: #f4f4f4;
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -249,6 +249,49 @@ blockquote footer {
   opacity: 1;
 }
 
+.sectionTextHeader {
+  justify-content: center;
+  justify-items: center;
+  text-align: center; 
+  display: flex; 
+  align-items: center;
+}
+
+.viewWorkButton {
+  padding: 14px 28px;
+  border: 2px;
+  background-color: #FFF500; 
+  color: black;
+  cursor: pointer;
+  border-radius: 88px;
+  font-size: 16px; 
+  cursor: pointer; 
+  justify-content: center;
+  justify-items: center;
+  text-align: center; 
+  display: flex; 
+  align-items: center; 
+  opacity: 1; 
+  transition: opacity 0.9s ease-in-out;
+}
+
+.viewWorkButton:hover {
+  padding: 14px 28px;
+  border: 2px;
+  background-color: lightgrey;
+  color: black; 
+  cursor: pointer;
+  border-radius: 88px;
+  font-size: 16px; 
+  cursor: pointer; 
+  justify-content: center;
+  justify-items: center;
+  text-align: center; 
+  display: flex; 
+  align-items: center; 
+  opacity: 0.7; 
+}
+
 .profilePicture:hover {
   transform: scale(1.05, 1.05); 
   opacity: 0.7; 
@@ -259,6 +302,12 @@ blockquote footer {
   transition: transform 5ms ease-in; 
   opacity: 1; 
   transition: opacity 0.3s ease-in; 
+  width: 150px;
+  height: 150px; 
+  direction: flex; 
+  justify-content: center;
+  align-items: center;
+  padding: 8px; 
 }
 
 .overlay h2 {
