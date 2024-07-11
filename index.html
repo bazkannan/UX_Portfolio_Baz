@@ -31,10 +31,10 @@
         <a href="#">B.K.</a>
       </div>
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">CASE STUDIES</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li class="navMenuItems"><a href="#">HOME</a></li>
+        <li class="navMenuItems" ><a href="#">ABOUT</a></li>
+        <li class="navMenuItems" ><a href="#">CASE STUDIES</a></li>
+        <li><a href="#" class="nav-bubble">CONTACT</a></li>
         <!-- Rounded switch 
         <label class="switch">
           <input type="checkbox" id="dark-mode-toggle">
@@ -48,7 +48,7 @@
       <h1 class="sectionTextHeader" style="font-variant: small-caps; padding-top: 30px; margin-bottom: -50px;">Who am I?</h1>
       <div style="display: flex; margin: 16px; padding-top: 30px; gap: 30px; justify-content: center; align-items: center; direction: flex;">
       <div>
-<img class="profilePicture" style="border-radius: 96px;" src="https://media.licdn.com/dms/image/D4E03AQGSjaVHxfh-7A/profile-displayphoto-shrink_200_200/0/1684078766783?e=2147483647&v=beta&t=Mw1dWRD9liyJ7AW_BKRVpPZ2pEJ9LQN27c5_OkhE4F4" alt="profile picture">
+<img class="profilePicture" style="border-radius: 96px;" src="https://github.com/bazkannan/UX_Portfolio_Baz/blob/main/img/BazProfilePictureFreelancing.jpg?raw=true" alt="profile picture">
       </div>
       <div>
       <p>Hi! I’m Bharath Kannan, also known as Baz. A diligent, collaborative and multidisciplinary designer with over 3 years of experience designing and creating graphics and visuals in the creative industry and agile environments, including FTSE 100 experience. My background in UI/UX, Graphic Design and motion Graphics helps me to view challenges from a different point of view.</p>
@@ -202,14 +202,14 @@
       <div>
         <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                <!-- stroke="hsl(0 100% 50% / 0.5)"    -->
-          <path id="circlePath" fill="white;" stroke-width="4" d="
+          <path id="circlePath" fill="Black;" stroke-width="4" d="
             M 10, 50
-            a 40,40 0 1,1 80,0
-            a 40,40 0 1,1 -80,0
+            a 37,37 0 1,1 74,0
+            a 37,37 0 1,1 -74,0
           " />
-          <text id="text" style="color: white; background-color: white;" font-family="monospace" font-size="12" font-weight="bold" fill="var(--text-1)">
+          <text id="text" font-family="monospace" font-size="12" font-weight="bold" fill="Black">
     
-            <textPath style="color: white; background-color: white;" id="rotating" href="#circlePath"> Grab a coffee with me </textPath>
+            <textPath id="rotating" href="#circlePath"> Grab a coffee with me </textPath>
           </text>
         </svg>
         </div>
@@ -220,7 +220,27 @@
       </div>
   </main>
   <footer>
+    <div style="flex-direction: row; gap: 8px; display: flex; justify-content: center; align-items: center;">
+  <br></br>
+  <div>
+    <p href="" class="footerText">Home</p>
+  </div>
+  <br></br>
+  <div>
+    <p href="" class="footerText">About</p>
+  </div>
+  <br></br>
+  <div>
+    <p href="" class="footerText">Case Studies</p>
+  </div>
+  <br></br>
+  <div>
+    <p href="" class="footerText">Contact</p>
+  </div>
+  </div>
+  <div>
     <p>2024 &copy; Baz Kannan </p>
+  </div>
   </footer>
   <script src="script.js"></script>
 </body>
