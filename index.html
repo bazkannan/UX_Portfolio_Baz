@@ -5,10 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Baz Kannan - Portfolio</title>
+  <script src="jquery-3.7.1.min"></script>
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+ <script src="https://code.jquery.com/jquery-3.7.1.js"></script> 
+  <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +66,8 @@
       <p>Notable achievements include designing, optimising the customer journey and delivering UX of the Lloyd’s Banking Group chatbot application using a combination of software including Figma, JavaScript and Adobe Creative Cloud (Photoshop, XD, After Effects, InDesign). Delivered design improvements to the chatbot application which lead to a 35% better customer reception and improved the overall UX for over 2 million Lloyd’s customers in the UK.
       </p>
     </section>
-    <section>
+    <div class="full-width-container, section">
+    <section class="full-width-container, section">
       <h1 class="sectionTextHeader" style="font-variant: small-caps; padding-top: 30px;">Case Studies</h1>
       <div class="gridcell3">
         <div class="image-hover">
@@ -109,8 +120,8 @@
           </div>
         </div>
       </div>
-      
     </section>
+  </div>
     <section class="testimonial">
       <h2 class="sectionTextHeader" style="font-variant: small-caps; padding-top: 30px;">What My Clients Say About Me</h2>
       <blockquote style="border-radius: 8px;">
@@ -189,6 +200,9 @@
       </div>
     </section>
     </div>
+    <div id="draggable" class="ui-widget-content">
+      <!--   <p>Drag me around</p> -->
+      </div>
   </main>
   <footer>
     <p>2024 &copy; Baz Kannan </p>

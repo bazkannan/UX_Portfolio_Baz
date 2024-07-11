@@ -5,10 +5,14 @@ body {
   line-height: 1.6;
   background-color: #333;
   color: #f4f4f4;
-  transition: background-color 0.3s, color 0.3s;
 }
 
+html {
+  margin: 0;
+  padding: 0; 
+}
 
+/*   transition: background-color 0.3s, color 0.3s; */
 
 /* Example of applying Newsreader font to titles */
 .newsreader-title {
@@ -16,6 +20,18 @@ body {
   font-optical-sizing: auto;
   font-weight: 400; /* Adjust weight as needed */
   font-style: normal;
+}]
+
+.full-width-container {
+ width: 100%; 
+ max-width: 100%;
+}
+
+.section {
+  background-color: #FFF500;
+  color: black; 
+  padding: 20px;
+  border-radius: 48px; 
 }
 
 /* Apply to all h1, h2, etc. */
@@ -217,12 +233,12 @@ blockquote footer {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  border-radius: 30px; 
+  border-radius: 8px; 
 }
 
 .image-container img {
-  width: 100%;
-  height: 100%;
+  width: 150%;
+  height: 150%;
   object-fit: cover;
 }
 
@@ -329,6 +345,23 @@ blockquote footer {
 
 .overlay button:hover {
   background-color: white; 
+}
+
+#draggable { 
+  width: 2000px; 
+  height: 1300px; 
+  transform: scale(0.7, 0.7);
+  padding: 0px; 
+  background-color: transparent;
+  border: solid transparent 1px;
+  background-image: url("https://pngimg.com/uploads/jet_fighter/jet_fighter_PNG102.png")
+}
+
+.flex{
+  height: 100%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
 }
 
 .projectGrid {
