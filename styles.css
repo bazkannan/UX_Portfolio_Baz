@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #333;
+  background-color: #1C1A1A;
   color: #f4f4f4;
   width: 100%; 
   max-width: 100%; 
@@ -96,13 +96,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000;
+  background-color: black; 
 }
 
 .logo a {
   text-decoration: none;
   font-size: 1.5em;
   font-weight: 200;
+  font-family: "Playwrite HR", cursive;
   color: #FFF500;
 }
 
@@ -587,6 +588,16 @@ blockquote footer {
   font-family: "Sarabun", sans-serif;
   font-weight: 800;
   font-style: italic;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 400 */
+
+.playwrite-hr {
+  font-family: "Playwrite HR", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 
