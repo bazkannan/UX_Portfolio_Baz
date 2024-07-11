@@ -400,6 +400,11 @@ blockquote footer {
   color: black !important;
 }
 
+.extendedParagraph {
+  margin-top: 20px;
+  margin-bottom: 20px; 
+}
+
 .viewWorkButton {
   padding: 10px 20px;
   border: 2px solid white;
