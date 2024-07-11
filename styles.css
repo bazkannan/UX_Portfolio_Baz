@@ -413,7 +413,7 @@ blockquote footer {
 }
 
 .viewWorkButton:hover, .viewWorkButton:focus {
-  padding: 14px 28px;
+  padding: 10px 20px;
   border: 2px;
   background-color: #FFF500;
   color: black; 
