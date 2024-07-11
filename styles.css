@@ -101,11 +101,11 @@ nav {
   text-decoration: none;
   font-size: 1.5em;
   font-weight: bold;
-  color: white; 
+  color: #FFF500;
 }
 
 .logo a:hover {
-  color: #FFF500;
+  color: white;
 }
 
 nav ul {
@@ -125,11 +125,11 @@ nav ul li a {
   color: #333;
   font-weight: bold;
   transition: color 0.3s;
-  color: white; 
+  color: #fff500;
 }
 
 nav ul li a:hover {
-  color: #FFF500;
+  color: white; 
 }
 
 .navMenuItems {
@@ -137,11 +137,11 @@ nav ul li a:hover {
   color: #333;
   font-weight: bold;
   transition: color 0.3s;
-  color: white; 
+  color: #FFF500;
 }
 
 .navMenuItems:hover {
-  color: #FFF500;
+  color: white; 
   text-decoration: underline; 
 }
 
@@ -374,9 +374,9 @@ blockquote footer {
 }
 
 .nav-bubble {
-  border: 2px solid white;
+  border: 2px solid #FFF500; 
   background-color: transparent; 
-  color: white;
+  color: #FFF500;
   cursor: pointer;
   padding: 8px 24px;
   border-radius: 88px;
