@@ -26,7 +26,7 @@ html {
   font-optical-sizing: auto;
   font-weight: 400; /* Adjust weight as needed */
   font-style: normal;
-}]
+}
 
 .full-width-container {
  width: 100%; 
@@ -46,7 +46,6 @@ html {
   padding: 10px 0; 
   padding-left: auto;
   padding-right: auto; 
-  border-radius: 32px; 
 }
 
 .content{
@@ -223,8 +222,6 @@ input:checked + .slider:before {
 }
 
 main {
-  padding: 20px;
-  max-width: 800px;
   margin: auto;
   padding-top: 100px; /* Adjust for fixed header */
 }
@@ -232,6 +229,12 @@ main {
 .intro,
 .testimonial {
   margin-bottom: 40px;
+  padding: 20px; 
+}
+
+.testimonialPadding {
+  padding-left: 500px; 
+  padding-right: 500px; 
 }
 
 .image-hover {
@@ -244,9 +247,8 @@ main {
 
 .contact {
   background-color: #FFF500;
-  margin-bottom: 40px;
-  padding: 88px; 
-  border-radius: 32px; 
+  margin-bottom: 0px;
+  padding: 80px; 
 }
 
 .featured-project a {
@@ -313,6 +315,14 @@ blockquote footer {
   line-height: 1.8;
 }
 
+.formField {
+  padding-left: 500px;
+  padding-right: 500px; 
+  gap: 10px; 
+  display: flex;
+  flex-direction: column;
+}
+
 .image-container {
   position: relative;
   width: 100%;
@@ -322,8 +332,8 @@ blockquote footer {
 }
 
 .image-container img {
-  width: 200%;
-  height: 500%; 
+  width: 100%;
+  height: 100%; 
   object-fit: cover;
   border-radius: 8px; 
 }
@@ -459,13 +469,12 @@ blockquote footer {
 }
 
 #draggable { 
-  width: 1920px; 
-  height: 1327px; 
+  width: 1080px; 
+  height: 1080px; 
   transform: scale(0.2, 0.2);
   padding: 0px; 
   background-color: transparent;
   border: solid transparent 1px;
-  background-image: url("https://raw.githubusercontent.com/bazkannan/UX_Portfolio_Baz/main/img/coffee-575608_1920.png")
 }
 
 .flex{
