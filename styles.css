@@ -355,13 +355,13 @@ blockquote footer {
 }
 
 #draggable { 
-  width: 2000px; 
-  height: 1300px; 
+  width: 1920px; 
+  height: 1327px; 
   transform: scale(0.7, 0.7);
   padding: 0px; 
   background-color: transparent;
   border: solid transparent 1px;
-  background-image: url("https://pngimg.com/uploads/jet_fighter/jet_fighter_PNG102.png")
+  background-image: url("https://raw.githubusercontent.com/bazkannan/UX_Portfolio_Baz/main/img/coffee-575608_1920.png")
 }
 
 .flex{
@@ -399,6 +399,7 @@ blockquote footer {
 .button-case-study {
   color: black;
   background-color: #FFF500;
+  padding: 10px; 
 }
 
 footer {
