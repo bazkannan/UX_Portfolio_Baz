@@ -1,3 +1,5 @@
+
+
 body {
   font-family: Lato, sans-serif;
   margin: 0;
@@ -28,14 +30,44 @@ html {
 
 .full-width-container {
  width: 100%; 
- max-width: 100%;
+ max-width: 1210px; 
+ margin-left: auto; 
+ margin-right: auto; 
+ height: auto; 
+ padding: 0px 20px; 
+ position: relative; 
+ clear: both; 
+ background-color: #FFF500; 
 }
+
+.full-width-section {
+  background-color: #FFF500; 
+  width: 100%; 
+  padding: 10px 0; 
+  padding-left: auto;
+  padding-right: auto; 
+  border-radius: 32px; 
+}
+
+.content{
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 0 20px; 
+  text-align: center; 
+}
+
 
 .section {
   background-color: #FFF500;
   color: black; 
   padding: 20px;
   border-radius: 48px; 
+}
+
+.responsiveWebsite {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box; 
 }
 
 /* Apply to all h1, h2, etc. */
@@ -112,6 +144,28 @@ nav ul li a:hover {
 .navMenuItems:hover {
   color: #FFF500;
   text-decoration: underline; 
+}
+
+.footerLength {
+ width: 100%; 
+ max-width: 2000px; 
+ margin-left: auto; 
+ margin-right: auto; 
+ height: auto; 
+ padding: 20px;
+ position: relative; 
+ clear: both; 
+}
+
+.containerLength {
+ width: 100%; 
+ max-width: 2000px; 
+ margin-left: auto; 
+ margin-right: auto; 
+ height: auto; 
+ padding: 20px;
+ position: relative; 
+ clear: both; 
 }
 
 .footerText {
@@ -268,10 +322,14 @@ blockquote footer {
 }
 
 .image-container img {
-  width: 100%;
-  height: 100%;
+  width: 200%;
+  height: 500%; 
   object-fit: cover;
   border-radius: 8px; 
+}
+
+.image-container-text {
+  padding: 16px; 
 }
 
 .overlay {
@@ -306,10 +364,11 @@ blockquote footer {
 }
 
 .nav-bubble {
-  background-color: #fff500;
-  border: 1px solid transparent;
-  color: black !important;
-  padding: 5px 20px;
+  border: 2px solid white;
+  background-color: transparent; 
+  color: white;
+  cursor: pointer;
+  padding: 8px 24px;
   border-radius: 88px;
   font-size: 16px;
   font-weight: 900;
@@ -318,15 +377,18 @@ blockquote footer {
 }
 
 .nav-bubble:hover {
-  opacity: 0.7; 
+  opacity: 0.9; 
   transition: opacity 0.3s; 
+  background-color: #fff500;
+  border: 2px solid transparent;
+  color: black !important;
 }
 
 .viewWorkButton {
-  padding: 14px 28px;
-  border: 2px;
-  background-color: #FFF500; 
-  color: black;
+  padding: 10px 20px;
+  border: 2px solid white;
+  background-color: transparent; 
+  color: white;
   cursor: pointer;
   border-radius: 88px;
   font-size: 16px; 
@@ -337,13 +399,13 @@ blockquote footer {
   display: flex; 
   align-items: center; 
   opacity: 1; 
-  transition: opacity 0.9s ease-in-out;
+  transition: background-color 0.3s, color 0.3s; 
 }
 
-.viewWorkButton:hover {
+.viewWorkButton:hover, .viewWorkButton:focus {
   padding: 14px 28px;
   border: 2px;
-  background-color: lightgrey;
+  background-color: #FFF500;
   color: black; 
   cursor: pointer;
   border-radius: 88px;
