@@ -460,6 +460,24 @@ blockquote footer {
   padding: 8px; 
 }
 
+.sanjayPicture {
+  transform: scale(1, 1);
+  transition: transform 5ms ease-in; 
+  opacity: 1; 
+  transition: opacity 0.3s ease-in; 
+  width: 150px;
+  height: 150px; 
+  direction: flex; 
+  justify-content: center;
+  align-items: center;
+  padding: 8px; 
+}
+
+.sanjayPicture:hover {
+  transform: scale(1.05, 1.05); 
+  opacity: 0.7; 
+}
+
 .coffeeMug {
   transform: scale(0.5, 0.5);
   position: relative; 
